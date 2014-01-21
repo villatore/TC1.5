@@ -36,10 +36,10 @@ var app = {
 						}
 						console.log("Su conexión es del tipo: "+navigator.network.connection.type);
 					} else {
-						alert ("Su dispositivo no cuenta con internet");
+						console.log("Su dispositivo no cuenta con internet");
 					}
                 } else {
-                    alert ("Su dispositivo no cuenta con internet");
+                    console.log("Su dispositivo no cuenta con internet");
                 }
 			console.log("Se cambiará a la siguiente pag");
             window.location = "index2.html";
