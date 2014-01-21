@@ -1,6 +1,6 @@
 /*
- * Licensed to Toruz Holding
-  * Enero 20, 2014
+    Licensed Toruz Holding, Jan 2014
+    Enero 20, 2014
 */
 var app = {
     // Application Constructor
