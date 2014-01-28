@@ -58,7 +58,7 @@ var app = {
             alert('Connection type: ' + states[networkState]);
 
 			console.log("Se cambiará a la siguiente pag");
-            //window.location = "index2.html";
+            window.location = "index2.html";
 			console.log("Se cambia a la siguiente pag");
 	},
     // Update DOM on a Received Event

@@ -8,6 +8,9 @@
         toruzcart Team
     </author>
     <feature name="http://api.phonegap.com/1.0/device" />
+<feature name="Camera">
+    <param name="android-package" value="org.apache.cordova.camera.CameraLauncher" />
+</feature>
 	<preference name="phonegap-version" value="3.3.0" />
     <preference name="permissions" value="camara" />
     <preference name="permissions" value="vibrate" />
@@ -51,7 +54,7 @@
     <gap:splash gap:platform="winphone" src="res/screen/windows-phone/screen-portrait.jpg" />
 	<!--gap:plugin name="Accelerometer" value="org.apache.cordova.Accelerometer" /-->
 	<!--gap:plugin name="Navigator" value="org.apache.cordova.Navigator" /-->
-	<plugin name="SplashScreen" value="org.apache.cordova.SplashScree7n"/>
+	<plugin name="SplashScreen" value="org.apache.cordova.SplashScreen"/>
 	<content src="index.html"/>
     <access origin="http://127.0.0.1*" />
 </widget>
