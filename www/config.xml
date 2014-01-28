@@ -8,7 +8,7 @@
         toruzcart Team
     </author>
     <feature name="http://api.phonegap.com/1.0/device" />
-	<!--preference name="phonegap-version" value="3.1.0" /-->
+	<preference name="phonegap-version" value="3.3.0" />
     <preference name="permissions" value="camara" />
     <preference name="permissions" value="vibrate" />
     <preference name="orientation" value="default" />
@@ -51,6 +51,7 @@
     <gap:splash gap:platform="winphone" src="res/screen/windows-phone/screen-portrait.jpg" />
 	<!--gap:plugin name="Accelerometer" value="org.apache.cordova.Accelerometer" /-->
 	<!--gap:plugin name="Navigator" value="org.apache.cordova.Navigator" /-->
+	<plugin name="SplashScreen" value="org.apache.cordova.SplashScree7n"/>
 	<content src="index.html"/>
     <access origin="http://127.0.0.1*" />
 </widget>
