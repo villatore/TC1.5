@@ -22,6 +22,7 @@ var app = {
     // function, we must explicity call 'app.receivedEvent(...);'
     onDeviceReady: function() {
         app.receivedEvent('deviceready');
+		navigator.splashscreen.hide();
                 if (navigator.network !== undefined) {
 					if (navigator.network.connection.type != Connection.NONE) {
 						// determine whether this connection is high-speed
